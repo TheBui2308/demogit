@@ -43,15 +43,17 @@
 .card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 30px;
   margin: 30px 0;
   padding: 10px 90px;
 }
 .card-item {
-  box-shadow: 2px 2px #ccc;
-
+  box-shadow:0 2px 2px #ccc;
 }
-.card-item img{
+.card-item .card-item--image {
+  width: 100%;
+}
+.card-item .card-item--image img{
   width: 100%;
 }
 .card-item .item-title{
@@ -62,13 +64,11 @@
   font-size: 20px;
   text-align: left;
   font-weight: 800;
-  line-height: 20px;
 }
 .card .card-item h2{
   font-size: 14px;
   text-align: left;
   font-weight: 400;
-  line-height: 16px;
   margin: 16px 0;
 }
 .card .item-title--child{
@@ -126,9 +126,13 @@
     gap: 10px;
     margin: 30px 0;
   }
-  
   .card-item {
     margin: 10px;
+    /* padding: 2px; */
+  }
+  .card-item .item-title{
+    width: 200px;
+    margin: auto;
   }
   .footer{
     padding: 10px 90px;
@@ -137,6 +141,9 @@
 
 /* Mobile */
 @media (max-width: 46.1875em){
+  .container {
+    width: 100%;
+  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -160,33 +167,36 @@
     width: 100%;
     padding: 4px 45px;
   }
+  .content-section img{
+    width: 100%;
+    padding: 0;
+  }
   .card {
     display: block;
     margin: 30px 10px;
-    padding: 5px 45px;
+    padding:0;
   }
   
   .card-item{
-    margin: 20px 0px;
+    margin: 40px 0px;
   }
   .card-item img {
     width: 100%; 
-    max-width: 400px; 
     height: auto;
     display: block;
     margin: auto; 
   }
   .card-item .item-title{
-    width: 158px;
-    margin: auto;
+    /* width: 158px; */
+    text-align: left;
   }
   .card .card-item h1{
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     font-weight: 800;
   }
   .card .card-item h2{
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     font-weight: 400;
     margin: 16px 0;
@@ -202,6 +212,10 @@
   .card .item-title--child span{
     font-size: 12px;
     font-weight: 800;
+  }
+  .content-highlight img{
+    width: 100%;
+    padding: 0;
   }
   .content-button{
     margin: 30px 0;

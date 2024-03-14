@@ -7,13 +7,23 @@
     },
     {
       "id": 10,
-      "name": "Product 10",
-      "price": 13.99
+      "name": "Product 10 update",
+      "price": "100"
     },
     {
       "id": 11,
       "name": "Product 11",
       "price": 7.99
+    },
+    {
+      "name": "quân",
+      "price": "123",
+      "id": 12
+    },
+    {
+      "name": "1ada",
+      "price": "123",
+      "id": 13
     }
   ]
 }

@@ -13,7 +13,7 @@ function Home(){
                 </div>
                 <div className="card">
                     <div className="card-item">
-                        <img src={item1} alt="" />
+                        <div className="card-item--image"><img src={item1} alt="" /></div>
                         <div className="item-title">
                         <h1>long established</h1>
                         <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</h2>
@@ -24,7 +24,7 @@ function Home(){
                         </div>
                     </div>
                     <div className="card-item">
-                        <img src={item2} alt="" />
+                        <div className="card-item--image"><img src={item2} alt="" /></div>
                         <div className="item-title">
                         <h1>long established</h1>
                         <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</h2>
@@ -35,7 +35,7 @@ function Home(){
                         </div>
                     </div>
                     <div className="card-item">
-                        <img src={item3} alt="" />
+                        <div className="card-item--image"><img src={item3} alt="" /></div>
                         <div className="item-title">
                         <h1>long established</h1>
                         <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</h2>

@@ -89,6 +89,9 @@
 .item-title {
   padding: 10px;
 }
+.item-title h1{
+  font-weight: 700;
+}
 .item-title h3{
   font-size: 14px;
   font-weight: 400;

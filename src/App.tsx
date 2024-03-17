@@ -16,11 +16,7 @@ function App() {
   
   return (
     <>
-    <div className="container">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+    
       <Routes>
         <Route path='/'  element={<Home />}/>
         <Route path='/products' element={<ProductList /> } />

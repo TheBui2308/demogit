@@ -1,4 +1,4 @@
-import banner from "../img/Head-section.jpg"
+import banner from "../assets/img/Head-section.jpg"
 function Header(){
     return (
         <div>

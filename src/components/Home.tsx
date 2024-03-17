@@ -1,11 +1,15 @@
-import content from '../img/image 1.jpg'
-import item1 from "../img/image 2.jpg"
-import item2 from "../img/image 4.jpg"
-import item3 from "../img/image 5.jpg"
-import highlight from "../img/image 7.jpg"
+import { useContext } from 'react'
+import content from '../assets/img/image 1.jpg'
+import highlight from "../assets/img/image 7.jpg"
+import Footer from './Footer'
+import Header from './Header'
+import { ProductContext } from '../contexts/ProductContext'
+import { IProduct } from '../interfaces/Product'
 function Home(){
+    const {products} = useContext(ProductContext)
     return (
-        <div>
+        <div className='container'>
+              <Header />
             <div className="content">
                 <div className="content-section">
                     <div className="content-section--title">
@@ -21,39 +25,20 @@ function Home(){
                     </div>
                 </div>
                 <div className="card">
-                    <div className="card-item">
-                        <div className="card-item--image"><img src={item1} alt="" /></div>
-                        <div className="item-title">
-                        <h1>long established</h1>
-                        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</h3>
-                            <div className="date">
-                            <p>May 20th 2020</p>
-                            <span>Read more</span>
+                    {products && products.map((item: IProduct, index: number) => (
+                        <div className="card-item" key={index}>
+                            <div className="card-item--image"><img src={item.image} alt="" /></div>
+                            <div className="item-title">
+                            <h1>{item.title}</h1>
+                            <h3>{item.description}</h3>
+                                <div className="date">
+                                <p>{item.date}</p>
+                                <span>Read more</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="card-item">
-                        <div className="card-item--image"><img src={item2} alt="" /></div>
-                        <div className="item-title">
-                        <h1>long established</h1>
-                        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</h3>
-                            <div className="date">
-                            <p>May 20th 2020</p>
-                            <span>Read more</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card-item">
-                        <div className="card-item--image"><img src={item3} alt="" /></div>
-                        <div className="item-title">
-                        <h1>long established</h1>
-                        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</h3>
-                            <div className="date">
-                            <p>May 20th 2020</p>
-                            <span>Read more</span>
-                            </div>
-                        </div>
-                    </div>
+                    ))}
+                   
                 </div>
 
                 <div className="content-highlight">
@@ -72,6 +57,8 @@ function Home(){
                 </div>
             </div>
             <div className="border"></div>
+            <Footer />
+
         </div>
     )
 }

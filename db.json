@@ -1,29 +1,32 @@
 {
   "products": [
     {
-      "id": 9,
-      "name": "Product 9 update",
-      "price": "1000"
+      "id": 1,
+      "title": "long established13",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "/src/assets/img/image 2.jpg",
+      "date": "May 20, 2020"
     },
     {
-      "id": 10,
-      "name": "Product 10 update",
-      "price": "100"
+      "id": 2,
+      "title": "long established2",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "/src/assets/img/image 4.jpg",
+      "date": "May 20, 2020"
     },
     {
-      "id": 11,
-      "name": "Product 11",
-      "price": 7.99
+      "id": 3,
+      "title": "long established3",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "/src/assets/img/image 5.jpg",
+      "date": "May 20, 2020"
     },
     {
-      "name": "quân",
-      "price": "123",
-      "id": 12
-    },
-    {
-      "name": "1ada",
-      "price": "123",
-      "id": 13
+      "title": "Bài viết số 4",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "/src/assets/img/image 5.jpg",
+      "date": "March 13, 2024",
+      "id": 6
     }
   ]
 }

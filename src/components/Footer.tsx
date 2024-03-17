@@ -1,6 +1,6 @@
-import footer1 from "../img/instagram-fill 1.jpg";
-import footer2 from "../img/linkedin-box-fill 1.jpg";
-import footer3 from "../img/Vector.jpg";
+import footer1 from "../assets/img/instagram-fill 1.jpg";
+import footer2 from "../assets/img/linkedin-box-fill 1.jpg";
+import footer3 from "../assets/img/Vector.jpg";
 function Footer(){
     return (
         <div className="footer">

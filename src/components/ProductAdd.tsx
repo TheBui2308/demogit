@@ -32,25 +32,25 @@ const ProductAdd = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="my-2">
           <label htmlFor="" className='block text-[blue]'>Title</label>
-          <input className='w-[90%] border-[1px] border-solid border-[#ccc]' type="text" {...register('title', {required: true})} />
+          <input className='w-[95%] border-[1px] border-solid border-[#ccc]' type="text" {...register('title', {required: true})} />
           {errors.title && <p className='text-[red]'>Title trống</p>}
         </div>
         <div className="my-2">
-        <label htmlFor="" className='block text-[blue]'>Desc</label>
-        <input className='w-[90%] border-[1px] border-solid border-[#ccc]' type="text" {...register('description', {required: true})} />
-        {errors.description && <p className='text-[red]'>Desc trống</p>}
+          <label htmlFor="" className='block text-[blue]'>Desc</label>
+          <input className='w-[95%] border-[1px] border-solid border-[#ccc]' type="text" {...register('description', {required: true})} />
+          {errors.description && <p className='text-[red]'>Desc trống</p>}
         </div>
         <div className="my-2">
-        <label htmlFor="" className='block text-[blue]'>Image</label>
-        <input className='w-[90%] border-[1px] border-solid border-[#ccc]' type="text" {...register('image', {required: true})} />
-        {errors.image && <p className='text-[red]'>Image trống</p>}
+          <label htmlFor="" className='block text-[blue]'>Image</label>
+          <input className='w-[95%] border-[1px] border-solid border-[#ccc]' type="text" {...register('image', {required: true})} />
+          {errors.image && <p className='text-[red]'>Image trống</p>}
         </div>
         <div className="my-2">
-        <label htmlFor="" className='block text-[blue]'>Date</label>
-        <input className='w-[90%] border-[1px] border-solid border-[#ccc]' type="text" {...register('date', {required: true})} />
-        {errors.date && <p className='text-[red]'>Date trống</p>}
+          <label htmlFor="" className='block text-[blue]'>Date</label>
+          <input className='w-[95%] border-[1px] border-solid border-[#ccc]' type="text" {...register('date', {required: true})} />
+          {errors.date && <p className='text-[red]'>Date trống</p>}
         </div>
-        <button type='submit' className='p-2 bg-blue-500 text-white rounded my-4 hover:opacity-80'>Thêm</button>
+          <button type='submit' className='p-2 bg-blue-500 text-white rounded my-4 hover:opacity-80'>Thêm</button>
       </form>
     </div>
   )

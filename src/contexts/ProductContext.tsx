@@ -16,8 +16,10 @@ const ProductContextProvider = ({children}: {children: React.ReactNode}) => {
     
       const onHandleRemove = async (id: number) => {
         try {
-          const {data} = await axios.delete(`http://localhost:3000/products/${id}`)
-          setProducts(products.filter((item) => item.id !== id))
+          if(confirm('Bạn có muốn xóa không ?')) {
+            const {data} = await axios.delete(`http://localhost:3000/products/${id}`)
+            setProducts(products.filter((item) => item.id !== id))
+          }
         } catch (error) {
           
         }

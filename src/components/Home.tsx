@@ -17,7 +17,7 @@ function Home(){
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
                         <div className="date">
                             <p>May 20th 2020</p>
-                            <span>Read more</span>
+                            <span><a href="">Read more</a></span>
                         </div>
                     </div>
                     <div className="content-section--img">
@@ -33,7 +33,7 @@ function Home(){
                             <h3>{item.description}</h3>
                                 <div className="date">
                                 <p>{item.date}</p>
-                                <span>Read more</span>
+                                <span><a href="">Read more</a></span>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ function Home(){
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...</p>
                             <div className="date">
                                 <p>May 20th 2020</p>
-                                <span>Read more</span>
+                                <span><a href="">Read more</a></span>
                             </div>
                         </div>
                     <div className="content-highlight--img"><img src={highlight} alt="" /></div>

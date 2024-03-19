@@ -26,6 +26,9 @@
   font-size: 16px;
   color: #000;
 }
+.nav-menu a:hover{
+  color: tomato;
+}
 .banner {
   margin: 50px 0;
 }
@@ -81,6 +84,7 @@
 }
 .card-item {
   border: 1px solid #E2E2E2;
+  box-shadow: 0 1px 1px #ccc;
 }
 .card-item .card-item--image img{
   width: 100%;
@@ -175,8 +179,14 @@
   .card-item .item-title{
     padding: 10px;
   }
+  .content-section--img img{
+    height: 100%;
+  }
   .content-button button {
     margin: auto;
+  }
+  .content-highlight--img img{
+    height: 100%;
   }
   .footer-icon img{
     width: 20px;
@@ -274,7 +284,11 @@
   }
   .footer{
     display: block;
-    
   }
- 
+  .footer-text{
+    text-align: center;
+  }
+  .footer-icon{
+    justify-content: center;
+  }
 }

@@ -27,6 +27,20 @@
       "image": "/src/assets/img/image 5.jpg",
       "date": "March 13, 2024",
       "id": 6
+    },
+    {
+      "title": "Bài viêt số 6",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "https://picsum.photos/seed/picsum/200/120",
+      "date": "March 13, 2024",
+      "id": 8
+    },
+    {
+      "title": "một hai",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "/src/assets/img/image 4.jpg",
+      "date": "March 13, 2024",
+      "id": 11
     }
   ]
 }

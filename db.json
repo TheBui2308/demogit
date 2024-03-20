@@ -2,21 +2,21 @@
   "products": [
     {
       "id": 1,
-      "title": "long established13",
+      "title": "Bài viết 1",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
       "image": "/src/assets/img/image 2.jpg",
       "date": "May 20, 2020"
     },
     {
       "id": 2,
-      "title": "long established2",
+      "title": "Bài viết 2",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
       "image": "/src/assets/img/image 4.jpg",
       "date": "May 20, 2020"
     },
     {
       "id": 3,
-      "title": "long established3",
+      "title": "Bài viết 3",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
       "image": "/src/assets/img/image 5.jpg",
       "date": "May 20, 2020"
@@ -26,21 +26,56 @@
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
       "image": "/src/assets/img/image 5.jpg",
       "date": "March 13, 2024",
-      "id": 6
+      "id": 4
     },
     {
-      "title": "Bài viêt số 6",
+      "title": "Bài viêt số 5",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
       "image": "https://picsum.photos/seed/picsum/200/120",
       "date": "March 13, 2024",
-      "id": 8
+      "id": 5
     },
     {
-      "title": "một hai",
+      "title": "Bài viết 6",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
       "image": "/src/assets/img/image 4.jpg",
       "date": "March 13, 2024",
-      "id": 11
+      "id": 6
+    },
+    {
+      "id": 7,
+      "title": "Bài viết số 7",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....",
+      "image": "https://picsum.photos/seed/picsum/200/120",
+      "date": "May 20"
+    },
+    {
+      "id": 8,
+      "title": "bài viết số 10",
+      "description": "rất chất lượng",
+      "image": "https://picsum.photos/seed/picsum/200/120",
+      "date": "May 20"
+    },
+    {
+      "id": 9,
+      "title": "Bài viết số 11",
+      "description": "rất chất lượng",
+      "image": "https://picsum.photos/seed/picsum/200/120",
+      "date": "May 20"
+    },
+    {
+      "id": 10,
+      "title": "Bài viết số 12",
+      "description": "rất chất lượng",
+      "image": "https://picsum.photos/seed/picsum/200/120",
+      "date": "May 20"
+    },
+    {
+      "id": 11,
+      "title": "Bài viết số 13",
+      "description": "rất chất lượng",
+      "image": "https://picsum.photos/seed/picsum/200/120",
+      "date": "May 20"
     }
   ]
 }
